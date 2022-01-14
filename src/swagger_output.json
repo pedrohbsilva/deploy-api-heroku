@@ -15,6 +15,19 @@
             "http",
             "https"
           ],
+          "default": "http"
+        }
+      }
+    },
+    {
+      "url": "https://mysterious-fjord-12548.herokuapp.com/",
+      "description": "Production server",
+      "templates": {
+        "scheme": {
+          "enum": [
+            "http",
+            "https"
+          ],
           "default": "https"
         }
       }
